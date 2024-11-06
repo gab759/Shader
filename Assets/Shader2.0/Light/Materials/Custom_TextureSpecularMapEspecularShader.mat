@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_AmbientLambertShader
-  m_Shader: {fileID: 4800000, guid: a4cfd22e9a6a76c438c42ae811f2ad6c, type: 3}
+  m_Name: Custom_TextureSpecularMapEspecularShader
+  m_Shader: {fileID: 4800000, guid: 443934f3e6194e941b3dd02854c07eef, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -22,10 +22,15 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9cfa39010fe314547b3c17a05ff5f403, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _Shininess: 69.1
     m_Colors:
-    - _AmbientColor: {r: 0.6698113, g: 0.11690103, b: 0.11690103, a: 1}
-    - _Color: {r: 0.66904557, g: 0.6981132, b: 0.6618903, a: 1}
+    - _Color: {r: 0.3019983, g: 0.9622642, b: 0.24964403, a: 1}
+    - _SpecularColor: {r: 0.8679245, g: 0.21698113, b: 0.21698113, a: 1}
   m_BuildTextureStacks: []
